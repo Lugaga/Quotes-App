@@ -10,7 +10,7 @@ export class HightlightDirective implements OnInit {
   @HostListener('change') ngOnChanges() {
     if (this.highLightColor) {
       this.elem.nativeElement.style.backgroundColor = 'Black';
-      this.elem.nativeElement.style.color = 'goldenrod';
+      this.elem.nativeElement.style.color = 'gold';
     }
     else {
       this.elem.nativeElement.style.backgroundColor = 'goldenrod'
