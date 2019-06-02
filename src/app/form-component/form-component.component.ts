@@ -15,7 +15,7 @@ export class FormComponentComponent implements OnInit {
       this.isComplete.emit(this.quote);
     }
     else {
-      alert("Sorry ,All fields are required!")
+      alert("Sorry ,All fields are required!!")
     }
     this.quote = new Quote(0, ' ', ' ', ' ', 0, 0, 0, false);
   }
