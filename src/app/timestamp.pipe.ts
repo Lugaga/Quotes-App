@@ -26,7 +26,7 @@ export class TimestampPipe implements PipeTransform {
 			return minutes + ' minutes ago';
 		} else if (minutes <= 90) {
 			return 'an hour ago';
-		} else if (hours <= 22) {
+		} else if (hours <= 24) {
 			return hours + ' hours ago';
 		} else if (hours <= 36) {
 			return 'a day ago';
